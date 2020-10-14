@@ -2,6 +2,22 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.jon.navigationsamples.MainActivity">
+
+    <item
+        android:id="@+id/SecondFragment"
+        android:icon="@mipmap/ic_account_balance_white_24dp"
+        android:title="test"
+        android:tooltipText="cart ehat is a "
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/thirdFragment"
+        android:title="settings"
+        android:tooltipText=""
+        android:icon="@mipmap/ic_add_shopping_cart_white_24dp"
+
+        app:showAsAction="ifRoom"/>
+
     <item
         android:id="@+id/action_settings"
         android:orderInCategory="100"
